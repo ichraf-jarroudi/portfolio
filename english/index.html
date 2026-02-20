@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ichraf Jarroudi | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      color: #2575fc;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #2575fc;
+      display: inline-block;
+    }
+    .skills ul, .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li, .projects li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    .projects .project {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .projects .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+    .projects .project h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .projects .project p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    .projects .project a {
+      text-decoration: none;
+      color: #2575fc;
+      font-weight: bold;
+    }
+    .contact p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: #2575fc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/profile.jpg" alt="Profile picture of Ichraf Jarroudi" class="profile-pic">
+    <h1>Ichraf Jarroudi</h1>
+    <p>Odoo Developer</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>👩‍💻 About Me</h2>
+      <p>
+        Odoo Developer with over 2 years of experience in custom module development,
+        database migration, API integration, and ERP solution deployment.
+      </p>
+      <p>
+        🌍 Open to international mobility and remote work opportunities.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>🛠️ Skills</h2>
+      <ul>
+        <li><i class="fas fa-code"></i> Odoo module development (Python, XML)</li>
+        <li><i class="fas fa-file-code"></i> QWeb Reports & PDF generation</li>
+        <li><i class="fas fa-server"></i> HTTP Controllers & API integration</li>
+        <li><i class="fas fa-desktop"></i> Frontend views (OWL, HTML, JS)</li>
+        <li><i class="fas fa-lock"></i> Security & access management (record rules, ACL)</li>
+        <li><i class="fas fa-users"></i> Git, GitHub, Agile teamwork</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>📁 Projects</h2>
+
+      <article class="project">
+        <h3>🎟️ Voucher Generator (Odoo)</h3>
+        <p>
+          Odoo module for automatic customer voucher generation with <strong>QR code</strong>,
+          unique code creation, PDF reporting, and management interface.
+        </p>
+        <a href="https://github.com/ichraf-jarroudi/voucher_generator" target="_blank">View Project on GitHub</a>
+      </article>
+
+      <article class="project">
+        <h3>💻 IT Asset Management (Odoo)</h3>
+        <p>
+          Odoo module designed to manage company IT assets. Features include:
+        </p>
+        <ul>
+          <li>Category, brand, model, and serial number management</li>
+          <li>Warranty and maintenance tracking</li>
+          <li>Kanban, Graph, and Form views for intuitive management</li>
+          <li>Chatter integration for discussions and activities</li>
+        </ul>
+        <a href="https://github.com/ichraf-jarroudi/it_asset_management" target="_blank">View Project on GitHub</a>
+      </article>
+    </section>
+
+    <section class="portfolio">
+      <h2>🌐 Portfolio & GitHub</h2>
+      <p>
+        Explore my personal Odoo projects on GitHub, including custom modules
+        with full documentation (README + screenshots).
+      </p>
+      <p>
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/ichraf-jarroudi" target="_blank">
+          github.com/ichraf-jarroudi
+        </a>
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>📞 Contact</h2>
+      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:ichrafjarroudi9@gmail.com">ichrafjarroudi9@gmail.com</a></p>
+      <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/ichraf-jarroudi" target="_blank">github.com/ichraf-jarroudi</a></p>
+      <p><i class="fas fa-briefcase"></i> Available for full-time, freelance, or remote opportunities</p>
+      <!-- QR code for CV download -->
+      <hr>
+
+      <p><strong>📄 Download My Resume</strong></p>
+
+      <img src="images/qr_cv.png"
+          alt="QR Code Download Resume"
+          style="width:140px;height:140px;">
+
+      <p style="font-size:0.9rem; color:#666;">
+        Scan to download my resume (PDF)
+      </p>
+
+      <a href="assets/cv/Ichraf_Jarroudi_CV_ENG.pdf"
+        download
+        style="font-weight:bold; color:#2575fc;">
+        📄 Download My Resume (PDF)
+      </a>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ichraf Jarroudi. All rights reserved.</p>
+    <p>Follow me on <a href="https://github.com/ichraf-jarroudi" target="_blank">GitHub</a>.</p>
+  </footer>
+</body>
+</html>
